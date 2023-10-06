@@ -3,11 +3,11 @@
 ### INITIAL SET-UP
 Deploy MAAS server
 
-ssh ubuntu@IP_address
+    ssh ubuntu@IP_address
 
-sudo apt update && sudo apt upgrade
+    sudo apt update && sudo apt upgrade
 
-sudo apt install unzip
+    sudo apt install unzip
 
 ### Install OpenSCAP
 sudo apt install libopenscap8     
