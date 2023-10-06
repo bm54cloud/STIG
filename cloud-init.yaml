@@ -22,10 +22,5 @@ runcmd:
   - cd scap-security-guide-0.1.69/
   - oscap xccdf eval --profile xccdf_org.ssgproject.content_profile_stig --report report.html ssg-ubuntu2004-ds-1.2.xml
 
-
-
-  
-
-
 # Secure copy results file from remote to local
 # scp ubuntu@10.1.29.82:/usr/share/xml/scap/ssg/content/scap-security-guide-0.1.69/report.html ~/Development
