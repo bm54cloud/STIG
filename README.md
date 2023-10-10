@@ -46,3 +46,9 @@ Deploy MAAS server
 ### Change to scap_auditor user
     sudo -i -u scap_auditor # su scap_auditor asks for a password that is not set up
 
+### Clean up Multipass VM
+    exit #Exit out of user to local user
+    multipass delete STIG
+    multipass purge
+    multipass list # Confirms instance has been removed
+
