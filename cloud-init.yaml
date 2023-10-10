@@ -6,7 +6,7 @@ users:
     lock_passwd: true
     sudo: ALL=(ALL) NOPASSWD:ALL
     ssh_authorized_keys: 
-    - ssh-rsa AAAAB3N...
+    - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDOIS7KjXuXL6zFoUxVt4f13lNn3vNmRpEH46VtGEB9sV5hQKZBvg3oMAy/Mnk0qPLiK5TFO9uWOCRPDMmRWm1YtJG+ZVXeg2JaTmdT7ZSCqDV0CxOhjSZlaiRZxfJpspRdIycUbaouiFlHHSircg/9FS9Y3R/DNsRKyUFH+THjXEL9d2YzGTLG2btWeCANQ3O7WuB4YbS4vpWKoivyw6Eh/jrjfLMYisotNP92xX/dC7FsfbQZWBiIO/vn113kXf/beUfJoQjDSNpIUtsBumxF7kI00NHRuo1gjtKwJWBo/4dO/M0wOR0uk33cxTBicNN5OvVfEGkD0P74kWRg7nTFgLbw6wxO1BJiISLPiG8XWvnXNNpSOrZweITm2/Y5FcwklJOvb9U7nCySAZhf59bXLdX+iknmRC3D8Jl5o6AqWkmYk01tzHFOxLXx4CpSk+Gkw71ZZfvyQ9MtPGKDrnICGbYijAGHDYWtgQx6B+JUzdd1Dw3anuor7RKDz4GUErU= ubuntu@ATAR2
     
 package_update: true
 package_upgrade: true    
