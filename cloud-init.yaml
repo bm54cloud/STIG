@@ -1,7 +1,7 @@
 #cloud-config
 users:
   - name: scap_auditor
-    groups: sudo
+    groups: sudo, admin
     shell: /bin/bash
     lock_passwd: true
     sudo: ALL=(ALL) NOPASSWD:ALL
