@@ -1,5 +1,6 @@
 #cloud-config
 users:
+  - default
   - name: scap_auditor
     groups: sudo, admin
     shell: /bin/bash
